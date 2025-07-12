@@ -1,0 +1,6 @@
+invite:
+  input_prompt: "Please enter a nickname."
+  input_required: "<red>Please enter the nickname of the player to invite.</red>"
+  invalid_nickname_format: "<red>Invalid nickname format. Only letters, numbers, and underscores are allowed (3–16 characters).</red>"
+  already_invited: "<red>This player has already been invited by someone.</red>"
+  success: "<green>[invitee] has been invited.</green>"

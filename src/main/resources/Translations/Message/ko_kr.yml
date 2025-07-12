@@ -1,0 +1,6 @@
+invite:
+  input_prompt: "닉네임을 입력해주세요."
+  input_required: "<red>초대할 유저 닉네임을 입력해주세요.</red>"
+  invalid_nickname_format: "<red>유효하지 않은 닉네임 형식입니다. 영문, 숫자, _ 만 가능하며 3~16자여야 합니다.</red>"
+  already_invited: "<red>누군가 이미 초대한 유저입니다.</red>"
+  success: "<green>[invitee]님을 초대했습니다.</green>"
