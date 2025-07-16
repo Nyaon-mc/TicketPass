@@ -23,7 +23,7 @@ public class PlayerJoinEvent extends RSListener<InvitePlayer> {
 
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onPlayerLogin(AsyncPlayerPreLoginEvent e) {
-        if (nameTagConfig.getAllowedPlayers().contains(e.getName())) return;
+        if (nameTagConfig.getBypassPlayers().contains(e.getName())) return;
         if (!manager.isInvited(e.getUniqueId())) {
             Component message = ComponentFormatter.parse(nameTagConfig.getKickMessage());
             e.kickMessage(message);
